@@ -1,0 +1,268 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2 {
+  color: #343a40;
+  font-weight: 600;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Header/Nav styles */
+nav {
+  background-color: #007bff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* User and Role Management Page Styling */
+.container {
+  margin-top: 20px;
+  padding: 15px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: #495057;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="submit"],
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Button Group Styling for Edit and Delete */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button.edit-btn {
+  background-color: #28a745;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+}
+
+button.edit-btn:hover {
+  background-color: #218838;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .table, .container {
+    padding: 10px;
+  }
+
+  .form-group {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li a {
+    margin: 10px 0;
+  }
+}
+/* Button Group for Edit and Delete */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  color: white;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Add spacing between rows */
+.table th, .table td {
+  text-align: center;
+  padding: 15px;
+}
+/* Extra small screens (max-width: 376px) */
+@media (max-width: 376px) {
+  /* Reduce font size in table even further */
+  table th,
+  table td {
+    font-size: 10px;
+    padding: 4px; /* Reduce cell padding */
+  }
+
+  /* Further reduce button size */
+  .btn {
+    font-size: 10px;
+    padding: 4px 8px; /* Smaller button padding */
+  }
+
+  /* Reduce the font size of headers */
+  h1, h2 {
+    font-size: 1rem; /* Smaller header font */
+  }
+
+  /* Adjust margins for small screens */
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Optionally reduce form input sizes */
+  .form-control, .form-select {
+    font-size: 12px;  /* Smaller font size for input fields */
+    padding: 6px;     /* Reduce input padding */
+  }
+
+  /* Make table more compact */
+  .table {
+    font-size: 10px; /* Small font size for entire table */
+  }
+}
+
+/* Small screens (max-width: 576px) */
+@media (max-width: 576px) {
+  /* Reduce font size in table */
+  table th,
+  table td {
+    font-size: 11px;
+    padding: 5px; /* Reduce padding */
+  }
+
+  /* Smaller buttons */
+  .btn {
+    font-size: 11px;
+    padding: 6px 12px; /* Slightly smaller button size */
+  }
+
+  /* Reduce the font size of headers */
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+
+  /* Adjust input field padding */
+  .form-control, .form-select {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* Make the table more compact */
+  .table {
+    font-size: 12px;
+  }
+}
+

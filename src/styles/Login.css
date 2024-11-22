@@ -1,0 +1,65 @@
+/* Styling for the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+    background-color: #f4f4f9; /* Light background */
+  }
+  
+  /* Styling for the login card */
+  .login-card {
+    background: #ffffff; /* White background */
+    padding: 2rem;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .login-card img {
+    width: 60%; /* Adjust to fit within card */
+    margin-bottom: 1rem;
+    border-radius: 10px; /* Slightly rounded image corners */
+  }
+  
+  /* Form styling */
+  .login-card .form-label {
+    font-weight: 600;
+    color: #333333;
+  }
+  
+  .login-card .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+  }
+  
+  .login-card button {
+    width: 100%; /* Full-width button */
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-weight: 600;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Heading and text styles */
+  .login-card h2 {
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .login-card p {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-bottom: 1.5rem;
+  }
+  

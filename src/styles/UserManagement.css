@@ -1,0 +1,56 @@
+/* Make the table responsive */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* On smaller screens, display table rows as two columns */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .table thead {
+      display: none; /* Hide the header on small screens */
+    }
+  
+    .table td {
+      position: relative;
+      padding-left: 50%;
+      text-align: right;
+    }
+  
+    .table td::before {
+      /* Create a label for each column */
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      font-weight: bold;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .table td {
+      padding-left: 50%;
+      padding-right: 10px;
+    }
+  
+    .table td::before {
+      left: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    /* Standard display for larger screens (4 columns) */
+    .table th, .table td {
+      display: table-cell;
+      width: auto;
+    }
+  
+    .table td::before {
+      content: none;
+    }
+  }
+  
