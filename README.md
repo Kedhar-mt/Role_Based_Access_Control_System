@@ -14,12 +14,12 @@ This project demonstrates how to build a user-friendly, responsive admin dashboa
 - **Responsive Design**: The table layout adjusts based on screen size, making the app mobile-friendly.
 
 ##User Credentials to login:
-username-user
-password-user123
+  username-user
+  password-user123
 
-#admin credentials to login:
-username-admin
-password-admin123
+##admin credentials to login:
+  username-admin
+  password-admin123
 
 ## Technologies Used
 - **Frontend**: React, Bootstrap/Tailwind CSS (for responsive styling)
