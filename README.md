@@ -13,6 +13,14 @@ This project demonstrates how to build a user-friendly, responsive admin dashboa
 - **Pagination**: Efficient pagination to display a limited set of users per page.
 - **Responsive Design**: The table layout adjusts based on screen size, making the app mobile-friendly.
 
+##User Credentials to login:
+username-user
+password-user123
+
+#admin credentials to login:
+username-admin
+password-admin123
+
 ## Technologies Used
 - **Frontend**: React, Bootstrap/Tailwind CSS (for responsive styling)
 - **Mock APIs**: Data is handled by mock APIs, simulating backend data operations.
